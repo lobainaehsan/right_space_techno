@@ -1,0 +1,196 @@
+/*responsive code*/
+
+@media only screen and (max-width: 1199.98px) and (min-width:992px){
+	.feature-text{
+		width: 262px;
+        height: 193px;
+        padding: 7px;
+	}
+	.feature-p{
+		width: 262px;
+	}
+	.about{
+		height: 416px;
+	}
+	.about-text{
+		margin-top: 37px;
+	}
+	.app{
+		float: left;
+	}
+	.name{
+		margin-top: 90px;
+	}
+	.f-menu ul li{
+		padding: 0 2px;
+	}
+}
+@media only screen and (max-width: 991.98px) and (min-width:768px){
+	.logo img{
+		width: 100%;
+	}
+	nav ul li{
+		padding-right: 19px;
+	}
+	nav ul li a {
+		font-size: 13px;
+	}
+	.banner-text h2{
+		font-size: 27px;
+	}
+	.banner-text h1{
+		font-size: 31px;
+	}
+	.feature-text{
+		padding: 0 18px;
+		width: 100%;
+		border:none;
+		border-bottom: 2px solid white;
+	}
+	.feature-p{
+		width: 100%;
+	}
+	.about-text{
+		padding: 0 16px;
+		margin-top:37px;
+	}
+	.about{
+		height: 421px;
+	}
+	.app{
+		float:left;
+	}					
+    .name{
+    	margin-top:86px;
+    }
+    .f-menu ul li{
+    	padding: 0 2px;
+    }
+    .f-menu ul p{
+    	margin-top: 10px;
+        margin-left: 2px;
+    }
+    .f-menu ul li a{
+    	font-size: 11px;
+    }
+}
+@media only screen and (max-width: 767.98px) and (min-width: 576px){
+	.logo img{
+		width: 90%;
+	}
+	nav ul li{
+		padding-right: 5px;
+	}
+	nav ul li a{
+        font-size: 10px;
+	}
+	.banner-text h2{
+		font-size: 20px;
+	}
+	.banner-text h1{
+		font-size: 23px;
+	}
+	.feature-text{
+		padding: 0 18px;
+		width: 100%;
+		border:none;
+		border-bottom: 2px solid white;
+	}
+	.feature-p{
+		width: 100%;
+	}
+	.about{
+		height: 555px;
+	}
+	.about-text{
+        padding: 0px;
+        margin-top:35px;
+	}
+
+	.app{
+		float: left;
+	}
+	.f-menu{
+		width: 55%;
+	}
+	.f-menu ul li{
+		padding: 0 1px;
+		margin-top:13px;
+	}
+	.f-menu ul li a{
+		font-size: 10px;
+	}
+	.f-menu ul p{
+		margin-top: 13px;
+        margin-left: 4px;
+	}
+}
+@media only screen and (max-width:575.98px){
+	.logo img{
+		width: 135px;
+	}
+	header nav{
+		display:none;
+	}
+	.button img{
+		margin-top:10px;
+		width: 15%;
+		float:right;
+	}
+	.banner-text h2{
+		font-size: 20px;
+	}
+	.banner-text h1{
+		font-size: 23px;
+	}
+	.feature-text{
+		padding: 0 18px;
+		width: 100%;
+		border:none;
+		border-bottom: 2px solid white;
+	}
+	.feature-p{
+		width: 100%;
+	}
+	.about{
+		height: 575px;
+	}
+	.about-text{
+		margin-top: 31px;
+        padding: 0px
+	}
+	.app{
+		float: left;
+	}
+	.name{
+		margin-top:57%;
+	}
+	.f-menu{
+		margin-top: 0px;
+	}
+	.f-menu ul li{
+        padding: 0 1px;
+        margin-top:7px;
+	}
+	.f-menu ul p{
+		font-size: 8px;
+        margin-top: 8px;
+        margin-left: 1px;
+	}
+	.f-menu ul li a{
+		font-size: 12px;
+	}
+	.f-img img{
+        width: 109px;
+        height: 48px;
+        float: right;
+        margin-top: 17px;
+        margin-right: 0px;
+	}
+}
+@media only screen and (min-width:575.98px){
+	header .button{
+		display:none;
+	}
+	
+}
